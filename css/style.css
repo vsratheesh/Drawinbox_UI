@@ -1,5 +1,21 @@
+body{
+	background-color: #2B2B2B;
+}
+
 h2 {
 	text-align: center;
+	color: #F6F6F6;
+}
+th{
+background-color: seagreen;
+}
+td{
+	background-color:white;
+	color: black; 
+}
+
+label{
+	color: #F6F6F6;
 }
 
 table caption {
@@ -8,7 +24,6 @@ table caption {
 
 @media screen and (max-width: 767px) {
 	table caption {
-		border-bottom: 1px solid #ddd;
 		overflow-x: auto;
 		overflow-y: hidden;
 	}
@@ -19,4 +34,8 @@ table caption {
 	text-align: center;
 	padding-top: 140px;
 	font-size: 14px;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: transparent;
 }
